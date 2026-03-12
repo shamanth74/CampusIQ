@@ -1,2 +1,4 @@
-from .db import Base
-from app.models import user, room, circular, chunk
+from app.models import user
+from app.models import room
+from app.models import circular
+from app.models import chunk

@@ -11,4 +11,4 @@ class User(Base):
 
     email = Column(String, unique=True, index=True)
 
-    role = Column(String)
+    username = Column(String)
